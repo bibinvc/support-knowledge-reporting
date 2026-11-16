@@ -1,0 +1,12 @@
+{
+  "status": "prepared template, not deployed in Teams or Microsoft Forms",
+  "synthetic": true,
+  "title": "Helpdesk guidance feedback",
+  "questions": [
+    {"question": "Was the guidance clear?", "type": "rating", "range": [1, 5]},
+    {"question": "Did the sample article help you identify the next step?", "type": "choice", "choices": ["Yes", "Partly", "No"]}
+  ],
+  "teams_message_draft": "Please share feedback on the guidance using the approved survey link. Do not include passwords, customer details or confidential incident information.",
+  "live_account_validation": false,
+  "real_responses_collected": false
+}

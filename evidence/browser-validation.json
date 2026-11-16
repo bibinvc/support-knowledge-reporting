@@ -1,0 +1,9 @@
+{
+  "desktop": true,
+  "mobile": true,
+  "sql_counts": true,
+  "knowledge_search": true,
+  "empty_and_reset_states": true,
+  "javascript_errors": [],
+  "external_requests": []
+}

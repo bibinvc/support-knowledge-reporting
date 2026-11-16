@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "validated_utc": "2026-11-16T12:34:16.134694+00:00",
+  "tests": {
+    "run": 38,
+    "passed": 38,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "csharp_compiled": true,
+  "compiler": [
+    "Microsoft (R) Visual C# Compiler version 14.8.10001.0",
+    ""
+  ],
+  "target": ".NET Framework, existing Windows compiler",
+  "python": "3.13.9",
+  "sqlite": "3.50.4",
+  "fixtures": {
+    "incidents": 6,
+    "knowledge_articles": 3,
+    "content_documents": 5
+  },
+  "scope": {
+    "synthetic": true,
+    "local_web_service": true,
+    "csharp_api_csv_export_executed": true,
+    "teams_survey_deployed": false,
+    "aml_fraud_training_delivered": false,
+    "sharepoint_provisioned": false,
+    "real_stakeholder_responses": false,
+    "local_content_staging": true
+  },
+  "source_sha256": {
+    "ReportTool.cs": "445193a9338a7a082ac8a828b57bf0c2cc2519a03f9d493bea94c5b50d7d5cfe",
+    "app.py": "166e0a619de4c86a62609b92e9837af135b509c8f8a22d8f516680be75a66ae6",
+    "content_plan.py": "494c68a963a801d885c3a34db39c87eade46aae85c6225c8ccd989366134d17a"
+  }
+}

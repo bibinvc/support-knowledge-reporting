@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "total": 6,
+  "rows": [
+    {
+      "status": "Open",
+      "count": 2
+    },
+    {
+      "status": "In progress",
+      "count": 1
+    },
+    {
+      "status": "Resolved",
+      "count": 2
+    },
+    {
+      "status": "Closed",
+      "count": 1
+    }
+  ]
+}

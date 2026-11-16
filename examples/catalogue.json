@@ -1,0 +1,7 @@
+[
+  {"id":"DOC-001","title":"Find the right guidance","source":"find-guidance.md","target":"guidance/faq/find-guidance.md","category":"Guidance","document_type":"FAQ","owner":"Knowledge editor","review_due":"2027-02-01"},
+  {"id":"DOC-002","title":"Prepare a new knowledge article","source":"article-checklist.md","target":"guidance/work-instructions/article-checklist.md","category":"Guidance","document_type":"Work instruction","owner":"Content steward","review_due":"2027-02-01"},
+  {"id":"DOC-003","title":"Old meeting notes","source":"old-notes.md","target":"people-support/reference/old-notes.md","category":"People Support","document_type":"Reference","owner":"","review_due":"2026-10-01"},
+  {"id":"DOC-004","title":"Example access guidance","source":"access-guide.md","target":"systems/reference/access-guide.md","category":"Systems","document_type":"Reference","owner":"Systems owner","review_due":"2027-01-01"},
+  {"id":"DOC-005","title":"Copied access guidance","source":"access-copy.md","target":"systems/reference/access-copy.md","category":"Systems","document_type":"Reference","owner":"Systems owner","review_due":"2027-01-01"}
+]

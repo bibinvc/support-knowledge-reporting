@@ -1,0 +1,14 @@
+{
+  "status": "static design proposal; not provisioned",
+  "synthetic": true,
+  "site_purpose": "Central knowledge environment for fictional support teams",
+  "navigation": ["Start here", "Work instructions", "Reference", "Frequently asked questions", "Feedback"],
+  "library": {
+    "display_name": "Knowledge documents",
+    "metadata": ["Title", "Category", "Document type", "Content owner", "Review due", "Source reference", "Publication status"],
+    "views": ["By task and category", "Due for review", "Missing owner", "Drafts awaiting review"],
+    "suggested_controls": ["Version history", "Restricted publishing roles", "Review before publication"]
+  },
+  "validation_needed": ["Confirm metadata with stakeholders", "Test navigation with representative users", "Review actual SharePoint permissions", "Check search and accessibility", "Validate migration tooling and source formats"],
+  "cloud_calls": 0
+}

@@ -1,0 +1,43 @@
+test_case_insensitive_target_collision_rejected (test_content_plan.ContentPlanTests.test_case_insensitive_target_collision_rejected) ... ok
+test_changed_source_rejected_before_publishing (test_content_plan.ContentPlanTests.test_changed_source_rejected_before_publishing) ... ok
+test_duplicate_content_holds_both_candidates (test_content_plan.ContentPlanTests.test_duplicate_content_holds_both_candidates) ... ok
+test_duplicate_ids_rejected (test_content_plan.ContentPlanTests.test_duplicate_ids_rejected) ... ok
+test_existing_unrelated_output_preserved (test_content_plan.ContentPlanTests.test_existing_unrelated_output_preserved) ... ok
+test_held_content_not_staged (test_content_plan.ContentPlanTests.test_held_content_not_staged) ... ok
+test_invalid_review_date_rejected (test_content_plan.ContentPlanTests.test_invalid_review_date_rejected) ... ok
+test_invalid_taxonomy_rejected (test_content_plan.ContentPlanTests.test_invalid_taxonomy_rejected) ... ok
+test_manifest_records_mapping_hash_and_review_boundary (test_content_plan.ContentPlanTests.test_manifest_records_mapping_hash_and_review_boundary) ... ok
+test_missing_owner_and_stale_review_hold_content (test_content_plan.ContentPlanTests.test_missing_owner_and_stale_review_hold_content) ... ok
+test_missing_source_rejected (test_content_plan.ContentPlanTests.test_missing_source_rejected) ... ok
+test_overlapping_directories_rejected (test_content_plan.ContentPlanTests.test_overlapping_directories_rejected) ... ok
+test_staging_hashes_source_preservation_and_idempotence (test_content_plan.ContentPlanTests.test_staging_hashes_source_preservation_and_idempotence) ... ok
+test_traversal_and_absolute_paths_rejected (test_content_plan.ContentPlanTests.test_traversal_and_absolute_paths_rejected) ... ok
+test_case_insensitive_knowledge_search (test_reporting.LabTests.test_case_insensitive_knowledge_search) ... ok
+test_csharp_does_not_follow_redirect (test_reporting.LabTests.test_csharp_does_not_follow_redirect) ... ok
+test_csharp_empty_report (test_reporting.LabTests.test_csharp_empty_report) ... ok
+test_csharp_http_round_trip (test_reporting.LabTests.test_csharp_http_round_trip) ... ok
+test_csharp_json_to_csv (test_reporting.LabTests.test_csharp_json_to_csv) ... ok
+test_csharp_rejects_csv_formula_status (test_reporting.LabTests.test_csharp_rejects_csv_formula_status) ... ok
+test_csharp_rejects_duplicate_states (test_reporting.LabTests.test_csharp_rejects_duplicate_states) ... ok
+test_csharp_rejects_external_url (test_reporting.LabTests.test_csharp_rejects_external_url) ... ok
+test_csharp_rejects_inconsistent_total (test_reporting.LabTests.test_csharp_rejects_inconsistent_total) ... ok
+test_csharp_rejects_large_input (test_reporting.LabTests.test_csharp_rejects_large_input) ... ok
+test_csharp_rejects_live_marker (test_reporting.LabTests.test_csharp_rejects_live_marker) ... ok
+test_csharp_rejects_negative_count (test_reporting.LabTests.test_csharp_rejects_negative_count) ... ok
+test_csharp_rejects_wrong_schema (test_reporting.LabTests.test_csharp_rejects_wrong_schema) ... ok
+test_csharp_requires_fields (test_reporting.LabTests.test_csharp_requires_fields) ... ok
+test_database_status_constraint (test_reporting.LabTests.test_database_status_constraint) ... ok
+test_empty_report_has_zero_counts (test_reporting.LabTests.test_empty_report_has_zero_counts) ... ok
+test_http_invalid_search (test_reporting.LabTests.test_http_invalid_search) ... ok
+test_http_rejects_wrong_host (test_reporting.LabTests.test_http_rejects_wrong_host) ... ok
+test_http_report_and_webpage (test_reporting.LabTests.test_http_report_and_webpage) ... ok
+test_known_sql_counts (test_reporting.LabTests.test_known_sql_counts) ... ok
+test_search_bound (test_reporting.LabTests.test_search_bound) ... ok
+test_search_injection_is_literal (test_reporting.LabTests.test_search_injection_is_literal) ... ok
+test_seed_idempotent (test_reporting.LabTests.test_seed_idempotent) ... ok
+test_wildcards_are_literal (test_reporting.LabTests.test_wildcards_are_literal) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 3.833s
+
+OK

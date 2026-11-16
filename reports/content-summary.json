@@ -1,0 +1,13 @@
+{
+  "synthetic": true,
+  "as_of": "2026-11-16",
+  "total": 5,
+  "ready": 2,
+  "held": 3,
+  "cloud_calls": 0,
+  "staging": {
+    "staged": 2,
+    "held": 3,
+    "unchanged": true
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "synthetic": true,
+  "as_of": "2026-11-16",
+  "cloud_calls": 0,
+  "documents": [
+    {
+      "id": "DOC-001",
+      "title": "Find the right guidance",
+      "source": "find-guidance.md",
+      "target": "guidance/faq/find-guidance.md",
+      "category": "Guidance",
+      "document_type": "FAQ",
+      "owner": "Knowledge editor",
+      "review_due": "2027-02-01",
+      "sha256": "6479179857ac92e132a4ef25d0e54c1d133af20642c39f55c0a97fee5f69d400",
+      "bytes": 241,
+      "flags": [],
+      "ready_for_staging": true
+    },
+    {
+      "id": "DOC-002",
+      "title": "Prepare a new knowledge article",
+      "source": "article-checklist.md",
+      "target": "guidance/work-instructions/article-checklist.md",
+      "category": "Guidance",
+      "document_type": "Work instruction",
+      "owner": "Content steward",
+      "review_due": "2027-02-01",
+      "sha256": "7d29cfdc8b30c2400a3d09d3730d45733f90732246e9b9f3d40ef701f50c27e5",
+      "bytes": 260,
+      "flags": [],
+      "ready_for_staging": true
+    },
+    {
+      "id": "DOC-003",
+      "title": "Old meeting notes",
+      "source": "old-notes.md",
+      "target": "people-support/reference/old-notes.md",
+      "category": "People Support",
+      "document_type": "Reference",
+      "owner": "",
+      "review_due": "2026-10-01",
+      "sha256": "c7f7561bb1452dc391148eaf26dd18839171137e70a065bdb65ca83bcdd50b32",
+      "bytes": 171,
+      "flags": [
+        "MISSING_OWNER",
+        "REVIEW_OVERDUE"
+      ],
+      "ready_for_staging": false
+    },
+    {
+      "id": "DOC-004",
+      "title": "Example access guidance",
+      "source": "access-guide.md",
+      "target": "systems/reference/access-guide.md",
+      "category": "Systems",
+      "document_type": "Reference",
+      "owner": "Systems owner",
+      "review_due": "2027-01-01",
+      "sha256": "97f60476ddfbe00fec251a93f20f15497ed782a4fef1a7931ef9263dedc48849",
+      "bytes": 182,
+      "flags": [
+        "DUPLICATE_CONTENT"
+      ],
+      "ready_for_staging": false
+    },
+    {
+      "id": "DOC-005",
+      "title": "Copied access guidance",
+      "source": "access-copy.md",
+      "target": "systems/reference/access-copy.md",
+      "category": "Systems",
+      "document_type": "Reference",
+      "owner": "Systems owner",
+      "review_due": "2027-01-01",
+      "sha256": "97f60476ddfbe00fec251a93f20f15497ed782a4fef1a7931ef9263dedc48849",
+      "bytes": 182,
+      "flags": [
+        "DUPLICATE_CONTENT"
+      ],
+      "ready_for_staging": false
+    }
+  ],
+  "total": 5,
+  "ready": 2,
+  "held": 3
+}
