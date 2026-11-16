@@ -1,0 +1,20 @@
+{
+  "KB-001": {
+    "status": "approved",
+    "owner": "Fictional network support",
+    "review_due": "2026-12-31",
+    "keywords": ["network", "wifi", "connection", "connectivity", "internet", "ethernet"]
+  },
+  "KB-002": {
+    "status": "approved",
+    "owner": "Fictional application support",
+    "review_due": "2026-12-31",
+    "keywords": ["application", "app", "software", "crash", "version"]
+  },
+  "KB-003": {
+    "status": "approved",
+    "owner": "Fictional identity support",
+    "review_due": "2026-12-31",
+    "keywords": ["account", "password", "login", "mfa", "permission", "access"]
+  }
+}

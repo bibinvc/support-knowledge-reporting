@@ -1,9 +1,9 @@
 {
   "status": "passed",
-  "validated_utc": "2026-11-16T12:34:16.134694+00:00",
+  "validated_utc": "2026-11-16T13:09:32.022665+00:00",
   "tests": {
-    "run": 38,
-    "passed": 38,
+    "run": 52,
+    "passed": 52,
     "failures": 0,
     "errors": 0,
     "skipped": 0
@@ -19,7 +19,8 @@
   "fixtures": {
     "incidents": 6,
     "knowledge_articles": 3,
-    "content_documents": 5
+    "content_documents": 5,
+    "labelled_selfservice_queries": 12
   },
   "scope": {
     "synthetic": true,
@@ -29,11 +30,14 @@
     "aml_fraud_training_delivered": false,
     "sharepoint_provisioned": false,
     "real_stakeholder_responses": false,
-    "local_content_staging": true
+    "local_content_staging": true,
+    "selfservice_engine": "deterministic keyword routing",
+    "copilot_or_llm_connected": false
   },
   "source_sha256": {
     "ReportTool.cs": "445193a9338a7a082ac8a828b57bf0c2cc2519a03f9d493bea94c5b50d7d5cfe",
     "app.py": "166e0a619de4c86a62609b92e9837af135b509c8f8a22d8f516680be75a66ae6",
-    "content_plan.py": "494c68a963a801d885c3a34db39c87eade46aae85c6225c8ccd989366134d17a"
+    "content_plan.py": "494c68a963a801d885c3a34db39c87eade46aae85c6225c8ccd989366134d17a",
+    "selfservice_assistant.py": "b4ac2fe9b57abb9125c7a5d30ea11ae0e89b498d081e65ef3404251c8be21813"
   }
 }

@@ -1,0 +1,14 @@
+[
+  {"id":"Q01","question":"My wifi connection has stopped working","expected_decision":"guidance","expected_source":"KB-001"},
+  {"id":"Q02","question":"How should I report an internet issue?","expected_decision":"guidance","expected_source":"KB-001"},
+  {"id":"Q03","question":"The application keeps crashing","expected_decision":"guidance","expected_source":"KB-002"},
+  {"id":"Q04","question":"Which software version details should I record?","expected_decision":"guidance","expected_source":"KB-002"},
+  {"id":"Q05","question":"My account login fails","expected_decision":"guidance","expected_source":"KB-003"},
+  {"id":"Q06","question":"What should I do about unexpected permission changes?","expected_decision":"guidance","expected_source":"KB-003"},
+  {"id":"Q07","question":"","expected_decision":"clarification","expected_source":null},
+  {"id":"Q08","question":"My wifi and application both have issues","expected_decision":"clarification","expected_source":null},
+  {"id":"Q09","question":"How can I change a travel booking?","expected_decision":"escalation","expected_source":null},
+  {"id":"Q10","question":"Where is the expense policy?","expected_decision":"escalation","expected_source":null},
+  {"id":"Q11","question":"password=FAKE-DEMO-ONLY","expected_decision":"redaction_required","expected_source":null},
+  {"id":"Q12","question":"MFA problem","expected_decision":"guidance","expected_source":"KB-003"}
+]

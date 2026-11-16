@@ -36,8 +36,22 @@ test_search_bound (test_reporting.LabTests.test_search_bound) ... ok
 test_search_injection_is_literal (test_reporting.LabTests.test_search_injection_is_literal) ... ok
 test_seed_idempotent (test_reporting.LabTests.test_seed_idempotent) ... ok
 test_wildcards_are_literal (test_reporting.LabTests.test_wildcards_are_literal) ... ok
+test_account_help_does_not_change_access (test_selfservice.SelfServiceTests.test_account_help_does_not_change_access) ... ok
+test_application_guidance_preserves_source_text (test_selfservice.SelfServiceTests.test_application_guidance_preserves_source_text) ... ok
+test_connection_guidance_cites_existing_article (test_selfservice.SelfServiceTests.test_connection_guidance_cites_existing_article) ... ok
+test_credential_values_are_not_echoed (test_selfservice.SelfServiceTests.test_credential_values_are_not_echoed) ... ok
+test_draft_guides_are_not_returned (test_selfservice.SelfServiceTests.test_draft_guides_are_not_returned) ... ok
+test_empty_evaluation_does_not_invent_a_score (test_selfservice.SelfServiceTests.test_empty_evaluation_does_not_invent_a_score) ... ok
+test_empty_question_requests_clarification (test_selfservice.SelfServiceTests.test_empty_question_requests_clarification) ... ok
+test_expired_guides_are_not_returned (test_selfservice.SelfServiceTests.test_expired_guides_are_not_returned) ... ok
+test_input_validation_rejects_wrong_type_and_excess_length (test_selfservice.SelfServiceTests.test_input_validation_rejects_wrong_type_and_excess_length) ... ok
+test_labelled_queries_match_expected_decisions_and_sources (test_selfservice.SelfServiceTests.test_labelled_queries_match_expected_decisions_and_sources) ... ok
+test_multiple_topics_request_clarification (test_selfservice.SelfServiceTests.test_multiple_topics_request_clarification) ... ok
+test_result_is_deterministic_without_mutating_guidance (test_selfservice.SelfServiceTests.test_result_is_deterministic_without_mutating_guidance) ... ok
+test_review_date_equal_to_today_remains_current (test_selfservice.SelfServiceTests.test_review_date_equal_to_today_remains_current) ... ok
+test_unknown_question_prepares_human_handover (test_selfservice.SelfServiceTests.test_unknown_question_prepares_human_handover) ... ok
 
 ----------------------------------------------------------------------
-Ran 38 tests in 3.833s
+Ran 52 tests in 4.087s
 
 OK

@@ -1,0 +1,108 @@
+{
+  "synthetic": true,
+  "engine": "deterministic keyword routing",
+  "as_of": "2026-11-16",
+  "cases": 12,
+  "matched": 12,
+  "fixture_match_rate": 1.0,
+  "cloud_calls": 0,
+  "scope": "Labelled fictional questions; no real adoption, AI or service-performance result.",
+  "results": [
+    {
+      "id": "Q01",
+      "expected_decision": "guidance",
+      "actual_decision": "guidance",
+      "expected_source": "KB-001",
+      "actual_source": "KB-001",
+      "matched": true
+    },
+    {
+      "id": "Q02",
+      "expected_decision": "guidance",
+      "actual_decision": "guidance",
+      "expected_source": "KB-001",
+      "actual_source": "KB-001",
+      "matched": true
+    },
+    {
+      "id": "Q03",
+      "expected_decision": "guidance",
+      "actual_decision": "guidance",
+      "expected_source": "KB-002",
+      "actual_source": "KB-002",
+      "matched": true
+    },
+    {
+      "id": "Q04",
+      "expected_decision": "guidance",
+      "actual_decision": "guidance",
+      "expected_source": "KB-002",
+      "actual_source": "KB-002",
+      "matched": true
+    },
+    {
+      "id": "Q05",
+      "expected_decision": "guidance",
+      "actual_decision": "guidance",
+      "expected_source": "KB-003",
+      "actual_source": "KB-003",
+      "matched": true
+    },
+    {
+      "id": "Q06",
+      "expected_decision": "guidance",
+      "actual_decision": "guidance",
+      "expected_source": "KB-003",
+      "actual_source": "KB-003",
+      "matched": true
+    },
+    {
+      "id": "Q07",
+      "expected_decision": "clarification",
+      "actual_decision": "clarification",
+      "expected_source": null,
+      "actual_source": null,
+      "matched": true
+    },
+    {
+      "id": "Q08",
+      "expected_decision": "clarification",
+      "actual_decision": "clarification",
+      "expected_source": null,
+      "actual_source": null,
+      "matched": true
+    },
+    {
+      "id": "Q09",
+      "expected_decision": "escalation",
+      "actual_decision": "escalation",
+      "expected_source": null,
+      "actual_source": null,
+      "matched": true
+    },
+    {
+      "id": "Q10",
+      "expected_decision": "escalation",
+      "actual_decision": "escalation",
+      "expected_source": null,
+      "actual_source": null,
+      "matched": true
+    },
+    {
+      "id": "Q11",
+      "expected_decision": "redaction_required",
+      "actual_decision": "redaction_required",
+      "expected_source": null,
+      "actual_source": null,
+      "matched": true
+    },
+    {
+      "id": "Q12",
+      "expected_decision": "guidance",
+      "actual_decision": "guidance",
+      "expected_source": "KB-003",
+      "actual_source": "KB-003",
+      "matched": true
+    }
+  ]
+}

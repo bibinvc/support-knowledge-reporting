@@ -29,7 +29,7 @@ The validator accepts `--compiler ABSOLUTE_CSC_PATH` when the compiler is elsewh
 ## Results and evidence
 
 - `reports/report.json` and `reports/report.csv` contain the actual generated synthetic report: **Open 2, In progress 1, Resolved 2, Closed 1, Total 6**.
-- `evidence/validation-summary.json` records the compiler/Python/SQLite versions, source hashes and **38 passing tests**, with no failures, errors or skips. These include 24 original reporting checks and 14 content-planning checks.
+- `evidence/validation-summary.json` records the compiler/Python/SQLite versions, source hashes and **52 passing tests**, with no failures, errors or skips. These include 24 original reporting checks, 14 content-planning checks and 14 selfservice-assistant checks.
 - `evidence/tests.txt` records the named tests. They cover SQL counts, empty data, seed idempotence, database constraints, literal search, invalid C# payloads, preserved output on rejection, report/API agreement, external-URL refusal and redirect refusal.
 - The initial run caught an unclosed SQLite connection on Windows. Connections now explicitly close after their transaction, and the full corrected suite passed.
 - Browser validation, when present in `evidence/browser-validation.json`, records the separately tested UI behaviour.
@@ -81,6 +81,31 @@ The new tests cover ownership and review holds, duplicate content, duplicate IDs
 case-insensitive target collisions, taxonomy and date validation, missing sources,
 unsafe paths, changed-source rejection, verified copies, retries, skipped held
 content, existing-output protection and overlapping-directory rejection.
+
+## Selfservice assistant and support-options study
+
+The extension created on 16 November 2026 routes support questions to the three
+reviewed sample articles. It returns the exact guidance with a source ID and
+review metadata. Empty or mixed questions trigger clarification. Unsupported
+questions produce a structured handover to support. Credential-like input is
+rejected without being copied into the response.
+
+~~~powershell
+python selfservice_assistant.py --question "My network connection is unavailable"
+python selfservice_assistant.py --evaluate
+~~~
+
+The engine uses deterministic keyword routing. It runs locally, performs no
+actions and has no Copilot, LLM or Microsoft tenant connection. The twelve labelled
+queries in examples/selfservice-queries.json matched their expected decisions
+and source IDs. This is a fixture check, with no real-world accuracy or adoption
+claim. The saved results are in reports/selfservice-evaluation.json.
+
+The document docs/m365-support-options.md compares areas to investigate for knowledge search,
+Microsoft 365 Copilot and Copilot Studio. It proposes a small support/adoption
+pilot, clear ownership, evaluation measures and a management discussion brief.
+These are prepared recommendations. No Microsoft product comparison trial or
+management presentation was performed.
 
 ## Primary references
 

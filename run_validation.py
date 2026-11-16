@@ -2,6 +2,7 @@ from pathlib import Path
 from datetime import datetime,timezone
 import argparse,hashlib,io,json,os,platform,sqlite3,subprocess,tempfile,unittest
 from app import initialise,report,server
+from selfservice_assistant import demo_guidance,evaluate
 
 ROOT=Path(__file__).resolve().parent
 if __name__=='__main__':
@@ -29,5 +30,12 @@ if __name__=='__main__':
     summary['scope']['sharepoint_provisioned']=False
     summary['scope']['real_stakeholder_responses']=False
     summary['scope']['local_content_staging']=True
+    cases=json.loads((ROOT/'examples/selfservice-queries.json').read_text(encoding='utf-8'))
+    evaluation=evaluate(demo_guidance(),cases)
+    (ROOT/'reports/selfservice-evaluation.json').write_text(json.dumps(evaluation,indent=2),encoding='utf-8')
+    summary['source_sha256']['selfservice_assistant.py']=hashlib.sha256((ROOT/'selfservice_assistant.py').read_bytes()).hexdigest()
+    summary['fixtures']['labelled_selfservice_queries']=len(cases)
+    summary['scope']['selfservice_engine']='deterministic keyword routing'
+    summary['scope']['copilot_or_llm_connected']=False
     (ROOT/'evidence/validation-summary.json').write_text(json.dumps(summary,indent=2),encoding='utf-8')
     print(json.dumps(summary,indent=2))
