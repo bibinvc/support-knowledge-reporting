@@ -1,6 +1,6 @@
 # Knowledge Content Planning and Reporting
 
-New **AI-assisted educational project**, created 10 November 2026. It demonstrates a small SQL-backed helpdesk knowledge base and a **compiled C# reporting client**, with a local web interface. Six incidents and three sample articles are entirely fictitious.
+Personal **educational project**, created 10 November 2026. It demonstrates a small SQL-backed helpdesk knowledge base and a **compiled C# reporting client**, with a local web interface. Six incidents and three sample articles are entirely fictitious.
 
 ## Architecture
 
@@ -73,7 +73,7 @@ sets out needs-gathering questions, ownership responsibilities, pilot tasks and
 review procedures. These documents are design proposals, with no real
 stakeholder responses, adoption measurements or SharePoint deployment.
 
-The extension is AI-assisted educational work. It supports content inventory,
+The extension is educational work. It supports content inventory,
 migration preparation and information-governance practice. It does not establish
 experience administering a production SharePoint site or migrating real records.
 
@@ -112,4 +112,4 @@ management presentation was performed.
 - [Python 3.12 SQLite interface](https://docs.python.org/3.12/library/sqlite3.html)
 - [Microsoft: DataContractJsonSerializer](https://learn.microsoft.com/en-us/dotnet/api/system.runtime.serialization.json.datacontractjsonserializer)
 
-All project code and sample documentation are educational work created with AI assistance; no existing employer or customer deployment is claimed.
+All project code and sample documentation are educational work; no existing employer or customer deployment is claimed.
